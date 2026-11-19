@@ -1,0 +1,79 @@
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+    width: 220px;
+    height: 260px;
+    text-align: center;
+    gap: 4px;
+}
+
+/* this makes the containers next to each other */
+.grouping {
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+    
+}
+
+.fitness-tip{
+    background-color: #f77e7e;
+    height: 100px;
+    width: 400px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f77e7e;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 60px;
+}
+
+.single-homepage-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f77e7e;
+    width: 340px;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.headers {
+    background-color: black;
+    color: #C8FF00;
+    height: 50px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    /* display: flex; */
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.confirm-box {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.grouping-confirmation {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.a-tag {
+    color: #C8FF00;
+    text-decoration: none;
+}
